@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Tusker Grotesk";
+  src: url("/fonts/TuskerGrotesk-3600Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Founder Grotesk";
+  src: url("/fonts/founders-grotesk-x-condensed-regular.otf") format("opentype");
+  
+}
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("/fonts/NeueMontreal.ttf") format("truetype");
+  
+}
