@@ -5,6 +5,8 @@ import IntroSection from "./Components/IntroSection";
 import Cursor from "./Components/Cursor";
 import About from "./Components/About";
 import TechStack from "./Components/TechStack";
+import Footer from "./Components/Footer";
+import Projects from "./Components/Projects";
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
       <IntroSection/>
       <About/>
       <TechStack/>
+      <Projects/>
+      <Footer/>
        
 
     </div>
