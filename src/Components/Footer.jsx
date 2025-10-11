@@ -33,7 +33,7 @@ const Footer = () => {
           <div className="ml-[24vw]  flex flex-col ">
             <div className="text-gray-500">Socials</div>
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/satishmourya2026/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex gap-2 items-center"
