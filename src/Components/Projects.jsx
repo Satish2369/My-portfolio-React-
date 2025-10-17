@@ -13,12 +13,28 @@ const Projects = () => {
 
   const project = {
     All: [
+       {
+        image_Link:
+          "/project_Images/Devconnect.png",
+        github_link: "https://github.com/Satish2369/DevTinder-Frontend",
+        live_Link: "https://filmax-two.vercel.app/",
+
+      },
+
       {
         image_Link:
-          "https://tse2.mm.bing.net/th/id/OIP.D0Ci37hxAUUIMwOF80g78wHaEK?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
+          "/project_Images/AI_CODE.png",
         github_link: "https://github.com/Satish2369/AI-code-Reviewer-Frontend",
         live_Link: "https://ai-code-reviewer-frontend-ochre.vercel.app/",
       },
+       {
+        image_Link:
+          "/project_Images/filmax.jpg",
+        github_link: "https://github.com/Satish2369/Filmax",
+        live_Link: "https://filmax-two.vercel.app/",
+
+      },
+     
 
 
 
@@ -76,8 +92,8 @@ const Projects = () => {
           )
         )}
       </div>
-
-      {project[activeTab]?.map((pro, index) => {
+    <div  className="flex mx-auto gap-3">
+  {project[activeTab]?.map((pro, index) => {
         return (
           <div
             key={index}
@@ -108,6 +124,9 @@ const Projects = () => {
           </div>
         );
       })}
+
+    </div>
+    
     </div>
   );
 };
