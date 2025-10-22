@@ -11,11 +11,19 @@ const About = () => {
             transforming ideas into interactive and scalable web applications.
             My toolkit includes React.js for rich front-end experiences, Node.js
             and Express.js for robust backends, and MongoDB for efficient data
-            management. I'm equally excited about using Tailwind CSS, GSAP
-            animations, and Firebase integrations to create intuitive and
-            engaging user journeys. I aim to leverage technology to design
+            management.I aim to leverage technology to design
             solutions that make an impact and bring value to people's lives.
           </div>
+
+           <div className="text-white flex gap-3 ml-4">
+              <a href="https://www.github.com/Satish2369" target="_blank" rel="noopener noreferrer" >
+                  <div className="bg-red-800 px-8 py-2   rounded-md  cursor-pointer">Github</div>
+              </a>
+                   <a href="https://www.linkedin.com/in/satishmourya2026/" target="_blank" rel="noopener noreferrer">
+                  <div className="bg-red-800 px-8 py-2   rounded-md  cursor-pointer">Linkedin</div>
+              </a>
+              
+           </div>
              
              
 
