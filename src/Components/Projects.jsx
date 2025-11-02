@@ -4,12 +4,7 @@ import { useState } from "react";
 const Projects = () => {
   const [activeTab, setActiveTab] = useState("All");
 
-  useEffect(
-    (prev) => {
-      return console.log(prev);
-    },
-    [activeTab]
-  );
+ 
 
   const project = {
     All: [

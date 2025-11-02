@@ -7,8 +7,16 @@ import About from "./Components/About";
 import TechStack from "./Components/TechStack";
 import Footer from "./Components/Footer";
 import Projects from "./Components/Projects";
+import { useEffect } from "react";
 
 function App() {
+
+    
+
+
+
+
+
 
 
   return (
