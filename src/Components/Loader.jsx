@@ -28,10 +28,9 @@ const Loader = () => {
 t1.to(content.current,{
 
        
-     y:"-60%",
-     duration:0.6,
+     y:"-90%",
+     duration:1,
      ease:"circ.inOut",
-     opacity:0,
      stagger:1
 
 
