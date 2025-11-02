@@ -5,7 +5,7 @@ import gsap from 'gsap'
 const Loader = () => {
 
     const content = useRef(null);
-    const LoaderPage = useRef(null);
+    const loaderPage = useRef(null);
 
     useGSAP(function(){
 
@@ -20,31 +20,28 @@ const Loader = () => {
      duration:1,
      ease:"circ.inOut",
      opacity:0,
-     stagger:1
+     
 
 
 
     }) 
 t1.to(content.current,{
-
-       
+     
      y:"-90%",
      duration:1,
      ease:"circ.inOut",
-     stagger:1
-
-
-
+  
     }) 
 
 
-t1.to(LoaderPage.current,{
+t1.to(loaderPage.current,{
 
-   x:0,
+   x:"-100%",
+   delay:0.5,
    duration:1,
+   ease:"power1.inOut",
    opacity:0,
-   display:"none",
-   ease:"circ.out"
+  
 
 
 })
@@ -59,7 +56,7 @@ t1.to(LoaderPage.current,{
   return (
 
 
-    <div  ref={LoaderPage}  className='h-screen w-screen fixed bg-black z-20 py-1 flex justify-center items-center'>
+    <div  ref={loaderPage}  className='h-screen w-screen fixed bg-black z-20 py-1 flex justify-center items-center'>
 
         <div  className='h-[11vw] w-[70vw] overflow-y-hidden '>
 

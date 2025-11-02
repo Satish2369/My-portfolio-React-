@@ -41,8 +41,8 @@ const Projects = () => {
       {
         image_Link:
           "https://tse2.mm.bing.net/th/id/OIP.D0Ci37hxAUUIMwOF80g78wHaEK?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
-        github_link: "https://github.com/Satish2369/AI-code-Reviewer-Frontend",
-        live_Link: "https://ai-code-reviewer-frontend-ochre.vercel.app/",
+        github_link: "https://github.com/Satish2369/DevTinder-Frontend",
+        live_Link: "https://devconnect.me"
       },
     ],
     Projects: [
