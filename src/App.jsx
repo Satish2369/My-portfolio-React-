@@ -9,7 +9,7 @@ import Footer from "./Components/Footer";
 import Projects from "./Components/Projects";
 import { useEffect } from "react";
 
-function App() {
+function App({isLoading}) {
 
     
 
@@ -23,7 +23,7 @@ function App() {
     <div className="p-2 w-fit min-h-screen text-white  bg-black flex  flex-col ">
        
        <Header/>
-      <IntroSection/>
+      <IntroSection  isLoading={isLoading} />
       <About/>
       <TechStack/>
       <Projects/>

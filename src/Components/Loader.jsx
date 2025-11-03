@@ -2,7 +2,7 @@ import { useGSAP } from '@gsap/react'
 import React, { useRef } from 'react'
 import gsap from 'gsap'
 
-const Loader = () => {
+const Loader = ({onComplete}) => {
 
     const content = useRef(null);
     const loaderPage = useRef(null);
@@ -36,11 +36,12 @@ t1.to(content.current,{
 
 t1.to(loaderPage.current,{
 
-   x:"-100%",
+   y:"-100%",
    delay:0.5,
    duration:1,
    ease:"power1.inOut",
-   opacity:0,
+   display:"none",
+   onComplete:onComplete
   
 
 
