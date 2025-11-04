@@ -12,7 +12,7 @@ const Projects = () => {
         image_Link:
           "/project_Images/Devconnect.png",
         github_link: "https://github.com/Satish2369/DevTinder-Frontend",
-        live_Link: "https://filmax-two.vercel.app/",
+        live_Link: "https://devconnect.me/",
 
       },
 
@@ -68,17 +68,17 @@ const Projects = () => {
   };
 
   return (
-    <div className=" ml-[4vw]  text-white font-[Neue_Montreal] min-h-screen">
-      <div className="text-8xl font-[Founder_Grotesk] font-semibold ">
+    <div className=" ml-[4vw]   text-white font-[Neue_Montreal] h-[70vh]    md:min-h-screen">
+      <div className=" text-7xl md:text-8xl font-[Founder_Grotesk] font-semibold ">
         Proof Of Work
       </div>
-      <div className="flex gap-4 border-b-2">
+      <div className="flex gap-4 border-b-2   ">
         {["All", "Live WebSites", "Projects", "Collaborations"].map(
           (type, index) => (
             <div
               key={index}
               onClick={() => handleOnClick(type)}
-              className={`cursor-pointer m-1    ${
+              className={`cursor-pointer m-1 md:text-xl text-[4.4vw]   ${
                 activeTab === type ? "text-red-600 font-bold" : "text-white "
               }`}
             >
@@ -92,7 +92,7 @@ const Projects = () => {
         return (
           <div
             key={index}
-            className="  group  relative my-4   mx-2 w-[20vw] h-[18vw] bg-red-800 rounded-t-md overflow-hidden"
+            className="  group  h-[50vw]  w-[36vw]  relative md:my-4  md:mx-2  md:w-[20vw] md:h-[18vw] bg-red-800 rounded-t-md overflow-hidden"
           >
             <img
               src={pro.image_Link}

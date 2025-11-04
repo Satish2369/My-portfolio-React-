@@ -36,10 +36,13 @@ t1.to(content.current,{
 
 t1.to(loaderPage.current,{
 
-   y:"-100%",
+   x:"-100%",
    delay:0.5,
    duration:1,
    ease:"power1.inOut",
+   border:"10px solid white",
+   scale:"0.5",
+   borderRadius:"50px",
    display:"none",
    onComplete:onComplete
   
@@ -57,7 +60,7 @@ t1.to(loaderPage.current,{
   return (
 
 
-    <div  ref={loaderPage}  className='h-screen w-screen fixed bg-black z-20 py-1 flex justify-center items-center'>
+    <div  ref={loaderPage}  className=' h-[100vh] w-[100vw]      md:h-screen md:w-screen fixed bg-black z-20 py-1 flex justify-center items-center'>
 
         <div  className='h-[11vw] w-[70vw] overflow-y-hidden '>
 

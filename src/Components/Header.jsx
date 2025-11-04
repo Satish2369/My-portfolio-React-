@@ -45,15 +45,15 @@ const Header = () => {
 
   return (
     <div className=" flex  justify-between font-[Neue_Montreal]">
-      <div className="flex gap-2  items-center text-black rounded-full bg-white px-3 py-1 cursor-pointer">
+      <div className="     hidden             md:flex gap-2  items-center text-black rounded-full bg-white px-3 py-1 cursor-pointer         ">
         <div ref={value} >satishmourya410@gmail.com</div>
         <div className="bg-[#ECEFFD] p-1 rounded-full"  onClick={handleCopy}>
           { clicked ?<BiSolidCopy />:<PiCopySimpleThin /> }
         
         </div>
       </div>
-      <div className="font-[Tusker_Grotesk] text-4xl">Satish Mourya</div>
-      <div className="flex gap-2  items-center">
+      <div className=" ml-[32vw]  font-[Tusker_Grotesk] text-4xl  md:ml-0">Satish Mourya</div>
+      <div className="  hidden  md:flex md:gap-2  md:items-center">
         <div className="flex gap-1 items-center text-black  rounded-full bg-white  cursor-pointer">
           <a
             href="/Satish_Resume.pdf"

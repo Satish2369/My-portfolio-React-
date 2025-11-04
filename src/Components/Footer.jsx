@@ -7,7 +7,7 @@ import { BsTwitterX } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className=" flex p-10 font-[Neue_Montreal] w-full min-h-conten t">
+    <div className=" flex p-10 font-[Neue_Montreal] w-full min-h-content">
       <div className="w-[30%] h-full lin">
         <div className="ml-2">Satish Mourya</div>
         <div className="ml-2  text-gray-400">

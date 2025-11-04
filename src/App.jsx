@@ -20,7 +20,7 @@ function App({isLoading}) {
 
 
   return (
-    <div className="p-2 w-fit min-h-screen text-white  bg-black flex  flex-col ">
+    <div className="md:p-2 w-[100vw]     overflow-hidden  md:w-fit min-h-screen text-white  bg-black flex  flex-col ">
        
        <Header/>
       <IntroSection  isLoading={isLoading} />
