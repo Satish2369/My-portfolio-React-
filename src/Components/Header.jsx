@@ -13,7 +13,7 @@ const Header = () => {
   const value = useRef(null);
 
 
-  const handleCopy = (e)=>{
+  const handleCopy = ()=>{
 
 
 
@@ -52,7 +52,7 @@ const Header = () => {
         
         </div>
       </div>
-      <div className=" ml-[32vw]  font-[Tusker_Grotesk] text-4xl  md:ml-0">Satish Mourya</div>
+      <div className=" mx-auto md:mx-0 mt-4 md:mt-0  font-[Tusker_Grotesk] text-6xl    md:text-4xl  md:ml-0">Satish Mourya</div>
       <div className="  hidden  md:flex md:gap-2  md:items-center">
         <div className="flex gap-1 items-center text-black  rounded-full bg-white  cursor-pointer">
           <a

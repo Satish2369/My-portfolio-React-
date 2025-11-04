@@ -15,13 +15,6 @@ const Projects = () => {
         live_Link: "https://devconnect.me/",
 
       },
-
-      {
-        image_Link:
-          "/project_Images/AI_CODE.png",
-        github_link: "https://github.com/Satish2369/AI-code-Reviewer-Frontend",
-        live_Link: "https://ai-code-reviewer-frontend-ochre.vercel.app/",
-      },
        {
         image_Link:
           "/project_Images/filmax.jpg",
@@ -35,31 +28,62 @@ const Projects = () => {
 
 
 
+
     ],
 
     "Live WebSites": [
-      {
+
+                {
         image_Link:
-          "https://tse2.mm.bing.net/th/id/OIP.D0Ci37hxAUUIMwOF80g78wHaEK?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
+          "/project_Images/Devconnect.png",
         github_link: "https://github.com/Satish2369/DevTinder-Frontend",
-        live_Link: "https://devconnect.me"
+        live_Link: "https://devconnect.me/",
+
       },
+       {
+        image_Link:
+          "/project_Images/filmax.jpg",
+        github_link: "https://github.com/Satish2369/Filmax",
+        live_Link: "https://filmax-two.vercel.app/",
+
+      },
+     
     ],
     Projects: [
-      {
+
+             {
         image_Link:
-          "https://tse2.mm.bing.net/th/id/OIP.D0Ci37hxAUUIMwOF80g78wHaEK?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
-        github_link: "https://github.com/Satish2369/AI-code-Reviewer-Frontend",
-        live_Link: "https://ai-code-reviewer-frontend-ochre.vercel.app/",
+          "/project_Images/Devconnect.png",
+        github_link: "https://github.com/Satish2369/DevTinder-Frontend",
+        live_Link: "https://devconnect.me/",
+
       },
+       {
+        image_Link:
+          "/project_Images/filmax.jpg",
+        github_link: "https://github.com/Satish2369/Filmax",
+        live_Link: "https://filmax-two.vercel.app/",
+
+      },
+
     ],
     Collaborations: [
-            {
+
+             {
         image_Link:
-          "https://tse2.mm.bing.net/th/id/OIP.D0Ci37hxAUUIMwOF80g78wHaEK?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
-        github_link: "https://github.com/Satish2369/AI-code-Reviewer-Frontend",
-        live_Link: "https://ai-code-reviewer-frontend-ochre.vercel.app/",
+          "/project_Images/Devconnect.png",
+        github_link: "https://github.com/Satish2369/DevTinder-Frontend",
+        live_Link: "https://devconnect.me/",
+
       },
+       {
+        image_Link:
+          "/project_Images/filmax.jpg",
+        github_link: "https://github.com/Satish2369/Filmax",
+        live_Link: "https://filmax-two.vercel.app/",
+
+      },
+
     ],
   };
 
@@ -87,16 +111,16 @@ const Projects = () => {
           )
         )}
       </div>
-    <div  className="flex mx-auto gap-3">
+    <div  className="flex mx-auto gap-3 py-4 flex-wrap md:py-0">
   {project[activeTab]?.map((pro, index) => {
         return (
           <div
             key={index}
-            className="  group  h-[50vw]  w-[36vw]  relative md:my-4  md:mx-2  md:w-[20vw] md:h-[18vw] bg-red-800 rounded-t-md overflow-hidden"
+            className="  group  h-[56vw]  w-[46vw]     relative md:my-4  md:mx-2  md:w-[20vw] md:h-[18vw] rounded-t-md overflow-hidden"
           >
             <img
               src={pro.image_Link}
-              className=" z-0 w-full h-full object-fill"
+              className=" z-0 w-full h-full object-fill md:my-2  border border-white  md:border-0"
               alt="project_Image"
             />
 

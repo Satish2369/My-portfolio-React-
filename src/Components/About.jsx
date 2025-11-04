@@ -30,9 +30,9 @@ const About = () => {
 
         </div>
 
-        <div className="w-[40%]  rounded-2xl ml-[10vw] md:ml-0 md:p-2 md:m-2  ">
+        <div className=" md:w-[40%]  rounded-full bg-white p-2 md:bg-transparent   md:rounded-2xl   mx-auto       md:ml-0 md:p-2 md:m-2  ">
           {/* This is the parent container for the circular image */}
-          <div className="w-72 h-72 rounded-full overflow-hidden mx-auto">
+          <div className=" w-60 h-60      md:w-72 md:h-72 rounded-full overflow-hidden mx-auto">
             <img
               src="/Images/My_Photo.png"
               className="w-full h-full object-cover"

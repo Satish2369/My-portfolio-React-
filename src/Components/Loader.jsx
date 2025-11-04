@@ -42,6 +42,7 @@ t1.to(loaderPage.current,{
    ease:"power1.inOut",
    border:"10px solid white",
    scale:"0.5",
+    rotate:360,
    borderRadius:"50px",
    display:"none",
    onComplete:onComplete
